@@ -1,0 +1,39 @@
+# Node
+node_modules/
+frontend/node_modules/
+frontend/.turbo/
+frontend/dist/
+frontend/build/
+
+# Python
+__pycache__/
+*.py[cod]
+*~
+*.env
+.env
+*.sqlite3
+backend/*.env
+Backend/*.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Git
+.git
