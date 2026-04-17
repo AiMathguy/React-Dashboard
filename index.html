@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 24px;
+      background: #0f172a;
+      color: white;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 16px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    .charts {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .chart-card {
+      background: #1e293b;
+      padding: 16px;
+      border-radius: 12px;
+    }
+
+    canvas {
+      max-width: 100%;
+      background: white;
+      border-radius: 10px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Admin Dashboard</h1>
+
+  <div class="kpis">
+    <div class="card"><h3>Total Users</h3><p id="totalUsers">0</p></div>
+    <div class="card"><h3>Active Users</h3><p id="activeUsers">0</p></div>
+    <div class="card"><h3>Inactive Users</h3><p id="inactiveUsers">0</p></div>
+    <div class="card"><h3>Suspended Users</h3><p id="suspendedUsers">0</p></div>
+    <div class="card"><h3>Verified Users</h3><p id="verifiedUsers">0</p></div>
+    <div class="card"><h3>New Last 7 Days</h3><p id="newUsers7d">0</p></div>
+  </div>
+
+  <div class="charts">
+    <div class="chart-card">
+      <h3>User Growth</h3>
+      <canvas id="userGrowthChart"></canvas>
+    </div>
+
+    <div class="chart-card">
+      <h3>Users by Status</h3>
+      <canvas id="usersByStatusChart"></canvas>
+    </div>
+
+    <div class="chart-card">
+      <h3>Users by Role</h3>
+      <canvas id="usersByRoleChart"></canvas>
+    </div>
+
+    <div class="chart-card">
+      <h3>Daily Logins</h3>
+      <canvas id="dailyLoginsChart"></canvas>
+    </div>
+  </div>
+
+  <script>
+    const API_BASE = "http://127.0.0.1:8000/api/dashboard";
+
+    async function loadKPIs() {
+      const res = await fetch(`${API_BASE}/kpis`);
+      const data = await res.json();
+
+      document.getElementById("totalUsers").innerText = data.total_users;
+      document.getElementById("activeUsers").innerText = data.active_users;
+      document.getElementById("inactiveUsers").innerText = data.inactive_users;
+      document.getElementById("suspendedUsers").innerText = data.suspended_users;
+      document.getElementById("verifiedUsers").innerText = data.verified_users;
+      document.getElementById("newUsers7d").innerText = data.new_users_last_7_days;
+    }
+
+    async function renderChart(endpoint, canvasId, type) {
+      const res = await fetch(`${API_BASE}/${endpoint}`);
+      const chartData = await res.json();
+
+      const ctx = document.getElementById(canvasId).getContext("2d");
+
+      new Chart(ctx, {
+        type: type,
+        data: {
+          labels: chartData.labels,
+          datasets: chartData.datasets
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: true
+        }
+      });
+    }
+
+    loadKPIs();
+    renderChart("charts/user-growth", "userGrowthChart", "line");
+    renderChart("charts/users-by-status", "usersByStatusChart", "doughnut");
+    renderChart("charts/users-by-role", "usersByRoleChart", "bar");
+    renderChart("charts/daily-logins", "dailyLoginsChart", "line");
+  </script>
+</body>
+</html>
