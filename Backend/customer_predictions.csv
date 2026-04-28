@@ -1,0 +1,209 @@
+user_id,churn_probability,risk_score,risk_level,top_reason_1,top_reason_2,top_reason_3,model_version,scored_at
+a65de510-ec1b-45d3-9047-aeec2304df9e,0.2,20.0,Low,Low recent activity (17 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+29309f61-d66d-46e4-9ede-d47c03362404,0.3,30.0,Medium,User is not verified,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+1f90a8b7-6878-467a-8804-3f4bdae54d86,0.35,35.0,Medium,4 failed login attempts,Low recent activity (30 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+126dc759-7da9-44a9-8d73-56ddc0fe9185,0.35,35.0,Medium,3 failed login attempts,Low recent activity (15 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+95917768-ba4f-40a0-8b43-620233904aff,0.2,20.0,Low,Low recent activity (22 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+32c6ebee-fddc-47f5-8a82-2a504f00822c,0.55,55.0,Medium,User is not verified,3 failed login attempts,Low recent activity (28 days since login),rules_v1,2026-04-15 09:25:14.614193
+17f88913-9848-4349-9584-318dadf6d4e8,0.25,25.0,Low,4 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+1ec1b95f-7fdc-4c66-8653-1af1164ed05f,0.1,10.0,Low,No logins in last 7 days,,,rules_v1,2026-04-15 09:25:14.614193
+c160e01f-bb96-42c0-9d90-caac21c93631,0.45,45.0,Medium,User is not verified,No login for 31 days,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+6e7cbcdf-1609-4f8c-b182-7e1045ba8034,0.55,55.0,Medium,User is not verified,5 failed login attempts,Low recent activity (24 days since login),rules_v1,2026-04-15 09:25:14.614193
+d6951231-2f74-4883-8ec2-dfcaa9a553fe,0.25,25.0,Low,4 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+73135da5-92c1-4e0c-8493-32e507f4af6d,0.45,45.0,Medium,User is not verified,No login for 32 days,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+03b9d6b6-44c6-43ad-afb4-c06decdc6496,0.2,20.0,Low,Low recent activity (20 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+b43f9232-8338-4894-8125-44f75c6f7213,0.25,25.0,Low,3 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+3f97a7ba-8d3e-46c0-aded-e40b2915117e,0.4,40.0,Medium,User is not verified,Low recent activity (19 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+87681570-7ff6-44c5-824a-60e3c79f8bdc,0.25,25.0,Low,5 failed login attempts,Low recent activity (18 days since login),,rules_v1,2026-04-15 09:25:14.614193
+31c0ee5b-43e4-4bfe-b268-f8fbfd40ac0a,0.3,30.0,Medium,User is not verified,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+e64b3420-bdd6-42e9-a8cc-9edc08d3071f,0.35,35.0,Medium,3 failed login attempts,Low recent activity (29 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+a49f12d8-704c-4d21-a6ca-dd53c982193c,0.2,20.0,Low,Low recent activity (22 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+986efed4-cbc6-4ce2-9cd5-909289e46864,0.35,35.0,Medium,3 failed login attempts,Low recent activity (21 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+d9b459d1-d92a-4f42-9761-2c8dcaf829e5,0.1,10.0,Low,No logins in last 7 days,,,rules_v1,2026-04-15 09:25:14.614193
+d03b21b8-e3e3-43a8-a002-6b83c5140e9f,0.55,55.0,Medium,User is not verified,3 failed login attempts,Low recent activity (20 days since login),rules_v1,2026-04-15 09:25:14.614193
+6a09a01a-d9fb-46d6-82ca-9c668b514df1,0.75,75.0,High,Account is suspended,5 failed login attempts,Low recent activity (20 days since login),rules_v1,2026-04-15 09:25:14.614193
+aa7894c2-cac3-4301-9e4e-ae473041a550,0.5,50.0,Medium,Account is suspended,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+09f2b063-cefb-4892-9a10-b700fc2ff71c,0.35,35.0,Medium,3 failed login attempts,Low recent activity (29 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+d93d0590-4fbb-4dc9-a934-6e6cf9a2ef67,0.6,60.0,High,User is not verified,4 failed login attempts,No login for 31 days,rules_v1,2026-04-15 09:25:14.614193
+4c328ee1-6cde-41a5-a205-428ea6e3ca2e,0.35,35.0,Medium,3 failed login attempts,Low recent activity (20 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+d9a13358-0a12-4328-a016-f084eceaefb4,0.25,25.0,Low,5 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+ac605a6e-573f-4b5e-9393-56bedbae2d62,0.35,35.0,Medium,3 failed login attempts,Low recent activity (30 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+91921ff0-2238-40b9-a727-a2c8208e73ec,0.15,15.0,Low,5 failed login attempts,,,rules_v1,2026-04-15 09:25:14.614193
+3e84e5af-7f45-497f-85ff-5d92db6ad486,0.55,55.0,Medium,User is not verified,4 failed login attempts,Low recent activity (28 days since login),rules_v1,2026-04-15 09:25:14.614193
+4178efc8-7d23-445c-809d-99403c37a34e,0.35,35.0,Medium,4 failed login attempts,Low recent activity (26 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+84d353ee-c7e8-4343-8a8f-7e69dd1fc41c,0.35,35.0,Medium,3 failed login attempts,Low recent activity (19 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+53b41cb6-2a03-4c38-a8da-89da9bbccb6d,0.2,20.0,Low,Low recent activity (24 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+2eac5d30-ca2e-4d28-9c42-a9cc7e835e56,0.25,25.0,Low,4 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+259af31b-e2c5-447d-a12e-326b92eaff96,0.1,10.0,Low,No logins in last 7 days,,,rules_v1,2026-04-15 09:25:14.614193
+fa14d4de-d322-4bf4-9d44-5399549078a2,0.6,60.0,High,User is not verified,4 failed login attempts,No login for 31 days,rules_v1,2026-04-15 09:25:14.614193
+2e080787-e938-4da0-8fbe-abb764ce40ac,0.6,60.0,High,Account is suspended,Low recent activity (19 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+98b5dfb0-7569-4708-ba1d-fa4076b91780,0.45,45.0,Medium,User is not verified,5 failed login attempts,Low recent activity (21 days since login),rules_v1,2026-04-15 09:25:14.614193
+19c768ea-df9c-4c0e-8a78-13e3122b7d61,0.1,10.0,Low,Low recent activity (18 days since login),,,rules_v1,2026-04-15 09:25:14.614193
+9f5f1afe-c693-4b36-a348-ddc3d7a88a44,0.45,45.0,Medium,User is not verified,No login for 32 days,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+b794a059-9f35-4704-8996-c4e9e1484e5a,0.1,10.0,Low,No logins in last 7 days,,,rules_v1,2026-04-15 09:25:14.614193
+2f410aca-7747-4a15-9885-2caafe70e22c,0.1,10.0,Low,No logins in last 7 days,,,rules_v1,2026-04-15 09:25:14.614193
+a1948a5e-4d53-4c5a-9316-cbc4456a3149,0.3,30.0,Medium,User is not verified,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+4e1fbeb8-4bda-42df-bcea-abfb46ecedaf,0.8,80.0,High,Account is suspended,User is not verified,Low recent activity (27 days since login),rules_v1,2026-04-15 09:25:14.614193
+b447541c-2ce3-46bd-958a-5d5ee271c310,0.4,40.0,Medium,3 failed login attempts,No login for 33 days,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+6f460dec-6e9a-4ed9-bf41-0d7b759a7abd,0.3,30.0,Medium,User is not verified,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+025859fd-05d6-4806-b208-c0355f337786,0.1,10.0,Low,No logins in last 7 days,,,rules_v1,2026-04-15 09:25:14.614193
+b43dc66e-47e1-485c-9b4d-07eb6bfa86d2,0.2,20.0,Low,Low recent activity (17 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+b380c49e-96c3-4fb0-8287-e86e811503bd,0.35,35.0,Medium,3 failed login attempts,Low recent activity (29 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+5d23a74d-b6a7-4c68-bde7-4b44b27d4ea7,0.25,25.0,Low,4 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+a6894279-e721-42c1-a7f4-2aede0b54be6,0.15,15.0,Low,No login for 32 days,,,rules_v1,2026-04-15 09:25:14.614193
+48cd5213-e9cd-4bdb-ba68-d6c7e3a57523,0.35,35.0,Medium,3 failed login attempts,Low recent activity (16 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+921e2fe8-2663-4401-bfd8-2c7fb06f2efe,0.3,30.0,Medium,User is not verified,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+71c649d2-bb90-41cb-9547-33959318f355,0.35,35.0,Medium,5 failed login attempts,Low recent activity (25 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+6b2d7557-43ef-45d3-85f6-cf657e613fce,0.4,40.0,Medium,User is not verified,Low recent activity (22 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+7b20989f-34e6-4e78-abdd-10b004f07b65,0.2,20.0,Low,User is not verified,,,rules_v1,2026-04-15 09:25:14.614193
+65e08967-be26-4775-877b-0d9a4e8841b7,0.2,20.0,Low,Low recent activity (20 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+b7bf9298-2199-4837-95d0-07953e74aca4,0.5,50.0,Medium,Account is suspended,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+fd04b111-6bcc-414f-9ac9-94cfc316b228,0.15,15.0,Low,No login for 33 days,,,rules_v1,2026-04-15 09:25:14.614193
+69bda78c-bc1a-4560-9777-a422a612e2b9,0.85,85.0,High,Account is suspended,User is not verified,3 failed login attempts,rules_v1,2026-04-15 09:25:14.614193
+398d82cb-7b6d-47ab-bf57-6200bc95ce97,0.55,55.0,Medium,User is not verified,3 failed login attempts,Low recent activity (18 days since login),rules_v1,2026-04-15 09:25:14.614193
+48bf8100-d4e8-4e70-b085-75199ffc0d4a,0.2,20.0,Low,Low recent activity (22 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+e4a958af-7965-4bea-8498-1f6f669eca39,0.45,45.0,Medium,User is not verified,No login for 53 days,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+dce48cfe-7663-4375-8203-cc80244f8226,0.1,10.0,Low,No logins in last 7 days,,,rules_v1,2026-04-15 09:25:14.614193
+b7ccd7c1-2efd-46f7-9acc-0ebcdfca3bfe,0.45,45.0,Medium,User is not verified,3 failed login attempts,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+850ce265-7b89-45ec-802d-f4f66efef2ba,0.0,0.0,Low,,,,rules_v1,2026-04-15 09:25:14.614193
+6cb9b9f3-adbf-41b5-955f-fb90301ad279,0.35,35.0,Medium,User is not verified,5 failed login attempts,,rules_v1,2026-04-15 09:25:14.614193
+54471fb0-0ea0-4af1-900b-a4fa126a031a,0.45,45.0,Medium,User is not verified,3 failed login attempts,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+82fad524-c8d1-4c00-8cd5-b6a08b0e32c8,0.35,35.0,Medium,5 failed login attempts,Low recent activity (19 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+8ce47296-d340-4669-8b47-a30d7abe5205,0.25,25.0,Low,3 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+f4edefae-1663-4ced-a0ba-b75c2de1d129,0.25,25.0,Low,4 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+a50e0353-45cf-45da-9aaf-52489c6eddbb,0.2,20.0,Low,Low recent activity (15 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+53e1dd9c-6241-402e-8a5c-0e6def4e7e89,0.1,10.0,Low,No logins in last 7 days,,,rules_v1,2026-04-15 09:25:14.614193
+3625aae0-0f0c-4a88-a092-558fd4bdbe77,0.1,10.0,Low,Low recent activity (18 days since login),,,rules_v1,2026-04-15 09:25:14.614193
+0c3e3b3d-660b-4b6c-a26f-60e102fd01ca,0.35,35.0,Medium,User is not verified,4 failed login attempts,,rules_v1,2026-04-15 09:25:14.614193
+91151fc2-6737-4227-a82c-a5c54a570061,0.0,0.0,Low,,,,rules_v1,2026-04-15 09:25:14.614193
+6fc0cd81-ac92-4d4c-b459-626c63c39641,0.45,45.0,Medium,User is not verified,4 failed login attempts,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+8ccd9f49-a746-4353-8e91-e59db23316da,0.35,35.0,Medium,5 failed login attempts,Low recent activity (22 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+946531fc-0b7c-4ead-8833-1e78cd9d7254,0.3,30.0,Medium,User is not verified,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+f3538881-eef0-45a2-87bc-a6ba2d096449,0.45,45.0,Medium,User is not verified,3 failed login attempts,Low recent activity (30 days since login),rules_v1,2026-04-15 09:25:14.614193
+3f61c783-2de0-46d5-91c0-7dbd2bed751a,0.2,20.0,Low,Low recent activity (28 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+004419b4-7d5f-4ece-a12f-731f7291708d,0.6,60.0,High,User is not verified,3 failed login attempts,No login for 31 days,rules_v1,2026-04-15 09:25:14.614193
+52bdb904-3091-4230-98eb-2847dac21c6d,0.25,25.0,Low,No login for 35 days,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+68ad5c69-a092-44f8-aa77-6c3e6fa6bcbe,0.35,35.0,Medium,5 failed login attempts,Low recent activity (22 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+1ada1271-75f7-4d00-83d7-c78f664250ba,0.45,45.0,Medium,User is not verified,No login for 34 days,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+7719bf12-9ff5-4428-8aad-ee8314f30538,0.45,45.0,Medium,User is not verified,No login for 32 days,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+2a05564a-c4af-4131-b3e7-7b67e1623ae4,0.3,30.0,Medium,User is not verified,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+1a3e9819-4fbe-4155-8b76-bb0a24a241c6,0.1,10.0,Low,Low recent activity (16 days since login),,,rules_v1,2026-04-15 09:25:14.614193
+0c14d7e7-c492-4300-bb7c-587d9bc06197,0.25,25.0,Low,3 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+e34fecc7-b05b-42d7-9ade-d636d1fa4b21,0.25,25.0,Low,3 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+0220a495-c44c-47f2-88fe-332542c7272b,0.7,70.0,High,Account is suspended,User is not verified,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+cb06ee98-df80-44a0-a40f-5b02d1d594ab,0.35,35.0,Medium,4 failed login attempts,Low recent activity (21 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+aa5f62ca-9339-4e93-8cc4-5f80c1d2fd41,0.2,20.0,Low,Low recent activity (19 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+66198b85-9305-4da7-b273-456601155ee9,0.35,35.0,Medium,5 failed login attempts,Low recent activity (16 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+820f3709-b5e4-4401-bed1-24f80cec60de,0.6,60.0,High,Account is suspended,Low recent activity (27 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+9a4541dc-0ce2-484b-bc57-a6a27da938f4,0.35,35.0,Medium,4 failed login attempts,Low recent activity (17 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+3295ef8f-efe9-473b-87d6-fda668d5282a,0.6,60.0,High,User is not verified,4 failed login attempts,No login for 33 days,rules_v1,2026-04-15 09:25:14.614193
+a8330e03-84dd-45f5-9b4c-3bbe1a2bf592,0.15,15.0,Low,3 failed login attempts,,,rules_v1,2026-04-15 09:25:14.614193
+8e66611e-8fa4-437b-a520-617bfe3e9e00,0.0,0.0,Low,,,,rules_v1,2026-04-15 09:25:14.614193
+343176dc-beb6-4ba6-a314-d7d79d6aa1f6,0.95,95.0,High,Account is suspended,User is not verified,5 failed login attempts,rules_v1,2026-04-15 09:25:14.614193
+7eb9b18c-fd8c-4a1e-878d-d3f4bcfd004d,0.55,55.0,Medium,User is not verified,4 failed login attempts,Low recent activity (15 days since login),rules_v1,2026-04-15 09:25:14.614193
+12358cda-0216-49c2-bd64-ee214a4625ec,0.0,0.0,Low,,,,rules_v1,2026-04-15 09:25:14.614193
+8804bc50-bb30-4aee-93d8-cfd832832661,0.45,45.0,Medium,User is not verified,4 failed login attempts,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+ea6a1a10-29be-4939-88cd-966e81c4c5a7,0.15,15.0,Low,4 failed login attempts,,,rules_v1,2026-04-15 09:25:14.614193
+8b989d36-0dce-4e52-9269-7bfea9edffe2,0.55,55.0,Medium,User is not verified,3 failed login attempts,Low recent activity (17 days since login),rules_v1,2026-04-15 09:25:14.614193
+65affb4b-3872-483b-9fc4-fd286844d397,0.25,25.0,Low,4 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+d90f755a-3284-4984-b3ae-ea3770f9a520,0.2,20.0,Low,Low recent activity (25 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+3cec793d-7aa3-48bd-9ac9-e6a0d7558b75,0.4,40.0,Medium,User is not verified,Low recent activity (30 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+16b249e2-110a-4df5-96a4-e5540165603d,0.45,45.0,Medium,User is not verified,No login for 33 days,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+5c886fee-cafa-4bfe-943f-6c0c26256895,0.1,10.0,Low,No logins in last 7 days,,,rules_v1,2026-04-15 09:25:14.614193
+4ff5f1ee-357c-47c1-be1b-bb8898f1dc21,0.25,25.0,Low,No login for 32 days,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+d445c7a2-2f5a-4e57-9cc1-a1ac96eb7004,0.1,10.0,Low,No logins in last 7 days,,,rules_v1,2026-04-15 09:25:14.614193
+202bb672-02df-4b12-852b-e9c494e08075,0.35,35.0,Medium,4 failed login attempts,Low recent activity (30 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+8146268c-2e92-439f-8ae4-5be47bd85db2,0.1,10.0,Low,No logins in last 7 days,,,rules_v1,2026-04-15 09:25:14.614193
+6d4e5742-c9f9-4349-9968-5da7ded71ebf,0.2,20.0,Low,Low recent activity (22 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+beda43fc-bb26-4d1a-bdd8-cac81ccaf9e7,0.25,25.0,Low,5 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+9c061bfc-67e1-4ec3-be5c-c68a831c8847,0.45,45.0,Medium,User is not verified,5 failed login attempts,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+62ed9133-186b-4b48-802d-3f3deb2806b6,0.4,40.0,Medium,User is not verified,Low recent activity (16 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+dae5ef73-89b2-4653-a285-88167c9254c5,0.35,35.0,Medium,4 failed login attempts,Low recent activity (28 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+d7356243-5e69-4a27-8442-c431a8f87219,0.55,55.0,Medium,User is not verified,5 failed login attempts,Low recent activity (16 days since login),rules_v1,2026-04-15 09:25:14.614193
+32a099f9-08c1-44d0-9e2f-242234f5d2c9,0.25,25.0,Low,4 failed login attempts,Low recent activity (18 days since login),,rules_v1,2026-04-15 09:25:14.614193
+f91f8f88-3d50-434f-9e44-502746d14fdb,0.5,50.0,Medium,Account is suspended,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+b881bdfa-6a62-4a4a-8de2-7b2087e37f34,0.1,10.0,Low,No logins in last 7 days,,,rules_v1,2026-04-15 09:25:14.614193
+0cfa707e-85b9-42e6-8a07-d4fb0f608d1f,0.6,60.0,High,Account is suspended,Low recent activity (19 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+9e1599cb-63f9-4417-9540-81e04a8f5177,0.25,25.0,Low,No login for 35 days,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+d38ac57e-5c92-4d82-9338-798dc5398f0c,0.2,20.0,Low,Low recent activity (17 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+797bd2d6-da08-43fe-a973-df9fd9987a73,0.45,45.0,Medium,User is not verified,3 failed login attempts,Low recent activity (23 days since login),rules_v1,2026-04-15 09:25:14.614193
+e2ee906e-f598-4acb-814d-8aa91aae97d4,0.25,25.0,Low,3 failed login attempts,Low recent activity (19 days since login),,rules_v1,2026-04-15 09:25:14.614193
+479453b5-c142-4e86-9a7d-0db09d1ce2b6,0.25,25.0,Low,3 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+4e0cc065-02f2-4ffb-8c7a-53ef8f1cebcb,0.6,60.0,High,User is not verified,4 failed login attempts,No login for 35 days,rules_v1,2026-04-15 09:25:14.614193
+30d013b2-a608-4bf7-b43b-b6b5f4336c27,0.35,35.0,Medium,3 failed login attempts,Low recent activity (24 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+6f49ffd8-1183-4b45-b7c5-c4434521922f,0.35,35.0,Medium,3 failed login attempts,Low recent activity (15 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+401792cf-8cc2-4a53-bfd4-e45815dd2439,0.25,25.0,Low,No login for 33 days,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+852a737d-d1f6-4d88-93c5-140cc00275bc,0.25,25.0,Low,No login for 32 days,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+38ad2c22-8720-433c-a7e5-ad33975dd719,0.25,25.0,Low,4 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+ee2497c8-8392-4949-a114-ef49c24ef6f5,0.85,85.0,High,Account is suspended,User is not verified,4 failed login attempts,rules_v1,2026-04-15 09:25:14.614193
+e013cd6a-9f62-4e74-9554-1db6cbad1fe2,0.1,10.0,Low,No logins in last 7 days,,,rules_v1,2026-04-15 09:25:14.614193
+2610231d-507b-4869-8bec-0fcf93ba1056,0.35,35.0,Medium,3 failed login attempts,Low recent activity (18 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+fa8a6aa6-09ef-484d-8a42-3a5211b85aa9,0.25,25.0,Low,5 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+b30d4ef3-7145-4250-8b1c-73593f93f5a4,0.35,35.0,Medium,3 failed login attempts,Low recent activity (29 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+eb4fa733-2102-4ff6-971c-ec351385a8a8,0.25,25.0,Low,No login for 37 days,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+b85d6d88-ec4d-4a4b-a366-67235909b77c,0.55,55.0,Medium,User is not verified,3 failed login attempts,Low recent activity (29 days since login),rules_v1,2026-04-15 09:25:14.614193
+ed97d4d5-c8f9-493f-909e-5652c027f926,0.45,45.0,Medium,User is not verified,No login for 33 days,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+3a7de120-9a76-46a1-8499-23363e6c0fa4,0.55,55.0,Medium,User is not verified,4 failed login attempts,Low recent activity (23 days since login),rules_v1,2026-04-15 09:25:14.614193
+caf1d154-3767-4d88-8bb8-72b73f2321e3,0.25,25.0,Low,3 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+e8a45423-284e-4642-b46c-c022be6efa04,0.3,30.0,Medium,3 failed login attempts,No login for 34 days,,rules_v1,2026-04-15 09:25:14.614193
+b74b8f56-dc11-48a2-ba79-b99631fcbdfa,0.75,75.0,High,Account is suspended,5 failed login attempts,Low recent activity (22 days since login),rules_v1,2026-04-15 09:25:14.614193
+c3104e34-fad2-4918-ab35-34e2089baac8,0.4,40.0,Medium,User is not verified,Low recent activity (27 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+dc4647ba-19da-4fe2-b553-da69cb550d80,0.6,60.0,High,User is not verified,3 failed login attempts,No login for 35 days,rules_v1,2026-04-15 09:25:14.614193
+40cfde15-c701-4b6c-8f74-3fc5e41083f8,0.25,25.0,Low,No login for 32 days,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+d238bf9a-70f4-472b-80a4-62101b8bae12,0.3,30.0,Medium,User is not verified,Low recent activity (25 days since login),,rules_v1,2026-04-15 09:25:14.614193
+b8d3165e-e86c-4f72-9970-b18a28100e59,0.2,20.0,Low,Low recent activity (25 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+bed8f756-74df-4efa-b90e-a5048dedb842,0.1,10.0,Low,No logins in last 7 days,,,rules_v1,2026-04-15 09:25:14.614193
+cbfd5497-d53e-4b77-9e68-eddc73274354,0.2,20.0,Low,Low recent activity (21 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+7c48dfdb-543c-45c8-820a-cfc2e6f985b0,0.8,80.0,High,Account is suspended,User is not verified,Low recent activity (25 days since login),rules_v1,2026-04-15 09:25:14.614193
+a6d38e16-407f-4f65-83e9-50e92d90ee5a,0.55,55.0,Medium,User is not verified,4 failed login attempts,Low recent activity (25 days since login),rules_v1,2026-04-15 09:25:14.614193
+bbc68acc-a135-483e-a9de-e9aebd297e88,0.25,25.0,Low,4 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+ad57e260-7d0c-41d3-b449-05cadd9cef07,0.75,75.0,High,Account is suspended,5 failed login attempts,Low recent activity (17 days since login),rules_v1,2026-04-15 09:25:14.614193
+c1a73b76-63b7-417f-801d-2ca917bdd8cf,0.35,35.0,Medium,3 failed login attempts,Low recent activity (19 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+12f00068-7e65-4d00-8ea4-25ca65ab7a58,0.35,35.0,Medium,4 failed login attempts,Low recent activity (29 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+792401fb-7b6b-4871-afa6-b0a49f087fdb,0.0,0.0,Low,,,,rules_v1,2026-04-15 09:25:14.614193
+51ed0aef-c426-4e43-8c28-25412ed26c4b,0.2,20.0,Low,Low recent activity (22 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+4c9920e8-87fa-47d3-81a6-b93ce883bef9,0.4,40.0,Medium,5 failed login attempts,No login for 34 days,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+e02a570d-186d-4928-9106-5f915844182a,0.25,25.0,Low,4 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+8e136cae-c057-45ba-991c-34c6f5e4fffa,0.4,40.0,Medium,5 failed login attempts,No login for 31 days,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+8fa1231f-3bc8-4605-8728-a538d656f8d6,0.25,25.0,Low,4 failed login attempts,Low recent activity (16 days since login),,rules_v1,2026-04-15 09:25:14.614193
+8466e1ac-5c5c-48f0-9f28-2c96ddbc8944,0.85,85.0,High,Account is suspended,User is not verified,3 failed login attempts,rules_v1,2026-04-15 09:25:14.614193
+e0f2c3ed-8ef1-4210-bf9b-dad0992cc70f,0.55,55.0,Medium,User is not verified,4 failed login attempts,Low recent activity (16 days since login),rules_v1,2026-04-15 09:25:14.614193
+306730a2-a9df-4cf1-97b4-b1c5d4708522,0.45,45.0,Medium,User is not verified,No login for 35 days,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+3177c357-5c0a-432a-965b-5e5c90b34269,0.2,20.0,Low,Low recent activity (19 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+8b24c4e0-e510-4edd-8982-831be57fcdf5,0.6,60.0,High,User is not verified,3 failed login attempts,No login for 32 days,rules_v1,2026-04-15 09:25:14.614193
+e6f6c350-c7b3-416e-be3b-8e00a187b801,0.2,20.0,Low,Low recent activity (21 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+4267180c-28bc-4694-a1c0-357cc48afbb4,0.45,45.0,Medium,User is not verified,5 failed login attempts,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+39114930-df10-4bf2-a421-a2385b827efc,0.35,35.0,Medium,4 failed login attempts,Low recent activity (30 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+3dc822f8-c924-49b3-a0f5-d10f11fa4eaa,0.25,25.0,Low,4 failed login attempts,Low recent activity (16 days since login),,rules_v1,2026-04-15 09:25:14.614193
+138aeb45-f743-401a-99f6-835313132637,0.25,25.0,Low,5 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+b46282e3-3035-4e07-9bf8-998fc7ccc0e7,0.2,20.0,Low,Low recent activity (16 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+9cdc13c0-9c7d-4d5f-81cd-7bad75f5d32b,0.1,10.0,Low,Low recent activity (20 days since login),,,rules_v1,2026-04-15 09:25:14.614193
+bfc7fcfc-7db0-43c4-8d13-aa9b5f88e1ed,0.5,50.0,Medium,Account is suspended,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+4ce4884c-d936-4b87-b357-aeb8a54029c3,0.25,25.0,Low,No login for 32 days,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+c5d4fa19-67fa-4635-be2b-f24a161e4647,0.75,75.0,High,Account is suspended,4 failed login attempts,Low recent activity (24 days since login),rules_v1,2026-04-15 09:25:14.614193
+774dd099-d04a-4cba-b90a-957d18eb0be6,0.25,25.0,Low,3 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+e56f8df3-75f4-482e-bedd-91f9dd9ae32d,0.3,30.0,Medium,User is not verified,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+5106e66f-8ecb-4a90-800e-79ef88e6bcda,0.25,25.0,Low,4 failed login attempts,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+d5ad5bef-a6fe-42e3-95bd-325e954d8466,0.4,40.0,Medium,User is not verified,Low recent activity (27 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+a0d01959-cbe9-4584-991d-486368962020,0.35,35.0,Medium,4 failed login attempts,Low recent activity (27 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+8894a513-41af-4764-8dde-969505bb63c0,0.45,45.0,Medium,User is not verified,5 failed login attempts,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+aa103dca-4970-47d1-98d3-823b5d2eb1e7,0.55,55.0,Medium,User is not verified,5 failed login attempts,Low recent activity (25 days since login),rules_v1,2026-04-15 09:25:14.614193
+0de362e8-2af1-4495-bcc3-6d96a0284b47,0.35,35.0,Medium,5 failed login attempts,Low recent activity (18 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+38588833-1350-4559-a824-c90eba39b4de,0.65,65.0,High,Account is suspended,No login for 33 days,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+7898ac13-4358-4c03-82e7-bab2a15dc7dd,0.2,20.0,Low,Low recent activity (23 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+2bbe6967-6920-4fc7-a0a7-11565d842221,0.65,65.0,High,Account is suspended,5 failed login attempts,Low recent activity (17 days since login),rules_v1,2026-04-15 09:25:14.614193
+15499560-1973-4317-b6e6-ac8e93d95b82,0.35,35.0,Medium,4 failed login attempts,Low recent activity (27 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+dd5f28ca-f22e-4dc8-b2cb-47c0fd0e53d3,0.4,40.0,Medium,Account is suspended,,,rules_v1,2026-04-15 09:25:14.614193
+9a256b78-3b5f-454b-bbea-ac5c531fad85,0.1,10.0,Low,No logins in last 7 days,,,rules_v1,2026-04-15 09:25:14.614193
+27189c9c-fe63-479c-afe4-4f36d6c81342,0.45,45.0,Medium,User is not verified,3 failed login attempts,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+2bd2e90d-751f-4997-bf2d-cda5aa638474,0.3,30.0,Medium,User is not verified,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+b51010b2-07ef-44d0-bb69-d6880346a89a,0.1,10.0,Low,No logins in last 7 days,,,rules_v1,2026-04-15 09:25:14.614193
+e92f106c-40f7-4538-8d82-c82fd9b43c2a,0.3,30.0,Medium,User is not verified,Low recent activity (26 days since login),,rules_v1,2026-04-15 09:25:14.614193
+96478da8-140f-4098-8d93-10d1078ee7e4,0.45,45.0,Medium,User is not verified,3 failed login attempts,No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+f8329070-b079-4c51-98b1-a6f961c694cc,0.25,25.0,Low,No login for 31 days,No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+d1b8beed-2f63-42cc-b167-b3221f7500fe,0.2,20.0,Low,Low recent activity (30 days since login),No logins in last 7 days,,rules_v1,2026-04-15 09:25:14.614193
+aa8af17e-99e9-4b93-9f58-0e3351b283ef,0.1,10.0,Low,No logins in last 7 days,,,rules_v1,2026-04-15 09:25:14.614193
+a8604273-dd85-448a-b760-9d97fe15508e,0.1,10.0,Low,No logins in last 7 days,,,rules_v1,2026-04-15 09:25:14.614193
+95e122bb-abac-440d-9031-ddab793793bb,0.1,10.0,Low,No logins in last 7 days,,,rules_v1,2026-04-15 09:25:14.614193
+de2fcd7d-efbe-4bcd-9f17-51ac7158c0e5,0.35,35.0,Medium,4 failed login attempts,Low recent activity (27 days since login),No logins in last 7 days,rules_v1,2026-04-15 09:25:14.614193
+f5185eb7-7ac4-4ade-84bf-2634f95f1398,0.55,55.0,Medium,User is not verified,5 failed login attempts,Low recent activity (17 days since login),rules_v1,2026-04-15 09:25:14.614193
