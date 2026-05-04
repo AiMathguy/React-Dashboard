@@ -1,5 +1,3 @@
-# tests/test_init.py
-
 import os
 import pytest
 from sqlalchemy import create_engine
@@ -19,11 +17,11 @@ def test_engine_can_be_created():
 
 
 def test_tune_model_imports():
-    import src.tune_model as tune_model
+    import tune_model
     assert tune_model is not None
 
 
 def test_feature_columns_exists():
-    from Backend.dashboard_ui.ml_model import FEATURE_COLUMNS
+    from dashboard_ui.ml_model import FEATURE_COLUMNS
     assert isinstance(FEATURE_COLUMNS, list)
     assert len(FEATURE_COLUMNS) > 0
