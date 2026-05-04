@@ -8,7 +8,7 @@ psycopg2-binary==2.9.10
 
 # Environment & config
 python-dotenv==1.0.1
-
+tensorflow==2.17.0
 # ML & data
 pandas==2.2.3
 numpy==1.26.4
