@@ -35,4 +35,12 @@ def test_main_smoke(monkeypatch):
 
     monkeypatch.setattr(tm.FinalModelTrainer, "train_and_save", lambda self, output_path: DummyModel())
 
+
+    monkeypatch.setattr("mlflow.set_tracking_uri", lambda uri: None)
+    monkeypatch.setattr("mlflow.set_experiment", lambda name: None)
+    monkeypatch.setattr("mlflow.start_run", lambda **kwargs: __import__('contextlib').nullcontext())
+    monkeypatch.setattr("mlflow.log_params", lambda params: None)
+    monkeypatch.setattr("mlflow.log_metric", lambda key, value: None)
+    monkeypatch.setattr("mlflow.log_artifacts", lambda *args, **kwargs: None)
+
     tm.main()
