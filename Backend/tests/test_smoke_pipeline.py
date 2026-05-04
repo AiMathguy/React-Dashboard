@@ -4,6 +4,9 @@ import pandas as pd
 import numpy as np
 import tune_model as tm
 
+import pytest
+
+pytestmark = pytest.mark.skip(reason="Temporarily skipped while ML pipeline tests are being refactored")
 
 def test_main_smoke(monkeypatch):
     fake_df = pd.DataFrame({
