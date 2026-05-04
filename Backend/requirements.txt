@@ -8,13 +8,14 @@ psycopg2-binary==2.9.10
 
 # Environment & config
 python-dotenv==1.0.1
-tensorflow==2.17.0
 # ML & data
 pandas==2.2.3
 numpy==1.26.4
 scikit-learn==1.5.2
 xgboost==2.1.3
 joblib==1.4.2
+tensorflow==2.17.0
+great-expectations
 
 # Hyperparameter tuning & tracking
 optuna==4.0.0
