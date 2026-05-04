@@ -1,15 +1,9 @@
 import great_expectations as ge
 import pandas as pd
 import pytest
-from src.data_ingestion import DataIngestor
-import great_expectations as ge
-import pytest
-from src.data_ingestion import DataIngestor
-
-import pytest
+from data_ingestion import DataIngestor
 
 pytest.skip("great_expectations API incompatible", allow_module_level=True)
-
 # ── Schema config ──────────────────────────────────────────
 SCHEMA = {
     "columns": {
@@ -23,7 +17,7 @@ SCHEMA = {
 }
 
 # ── Build suite from config ────────────────────────────────
-def build_suite(gdf: ge.dataset.PandasDataset) -> ge.dataset.PandasDataset:
+def build_suite(gdf):
     for col, rules in SCHEMA["columns"].items():
         gdf.expect_column_to_exist(col)
 
