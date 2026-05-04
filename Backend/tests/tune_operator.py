@@ -1,6 +1,6 @@
 # tests/test_tuning_orchestrator.py
 import numpy as np
-from src.tune_model import TuningOrchestrator
+from tune_model import TuningOrchestrator
 
 def test_orchestrator_init():
     X = np.random.rand(20, 3)

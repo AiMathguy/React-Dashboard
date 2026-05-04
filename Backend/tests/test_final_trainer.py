@@ -2,7 +2,7 @@
 import numpy as np
 import optuna
 from pathlib import Path
-from src.tune_model import FinalModelTrainer
+from tune_model import FinalModelTrainer
 
 def test_clean_params_for_prefixed_model():
     study = optuna.create_study(direction="maximize")

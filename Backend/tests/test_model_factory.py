@@ -1,7 +1,7 @@
 # tests/test_model_factory.py
 
 import pytest
-from src.tune_model import ModelFactory
+from tune_model import ModelFactory
 from xgboost import XGBClassifier
 from sklearn.svm import SVC
 from sklearn.linear_model import SGDClassifier

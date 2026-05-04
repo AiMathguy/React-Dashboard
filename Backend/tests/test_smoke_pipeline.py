@@ -2,7 +2,7 @@
 
 import pandas as pd
 import numpy as np
-import src.tune_model as tm
+import tune_model as tm
 
 
 def test_main_smoke(monkeypatch):

@@ -2,8 +2,7 @@
 
 import pandas as pd
 import pytest
-from src.tune_model import DataLoader
-
+from tune_model import DataLoader
 
 def test_load_training_data_happy_path(monkeypatch):
     fake_df = pd.DataFrame({
